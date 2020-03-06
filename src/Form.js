@@ -8,7 +8,11 @@ class Form  extends React.Component {
       this.handleSubmit = this.handleSubmit.bind(this);
     }
     handleChange(event) {
-      this.setState({value: event.target.value});
+      let input = event.target.value.replace(/\D/,'');
+      /**
+      * add any extra code you need here
+      **/
+       this.setState({value: input});
     }
     handleSubmit(event) {
       console.log('A salary was submitted: ' + this.state.value);
@@ -21,8 +25,7 @@ class Form  extends React.Component {
             <label>
               Enter an hourly salary!
               <br/>
-              <input type="integer" value={this.state.value} 
-              onChange={this.handleChange} />
+              <input value = {this.state.value} onChange={event => this.handleChange(event)}/>
             </label>
             <input type="submit" value="Submit" />
           </form>
