@@ -23,6 +23,7 @@ function App() {
         <Form />
         <br />
       </div>
+      </header>
       <br />
       <img src={Buck} className="" alt="buck" /> 
       <br />
@@ -33,11 +34,10 @@ function App() {
       <div class = "row">
           <div><Picture /></div>
           <div><Info /></div>
-        </div>
+      </div>
         <div>
           <Comparator />
         </div>
-      </header>
     </div>
   );
 }
