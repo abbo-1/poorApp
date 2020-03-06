@@ -5,6 +5,7 @@ import Buttons from './Buttons';
 import Form from './Form';
 import Picture from './Picture';
 import Info from './Info';
+import Comparator from './Comparator'
 import Buck from './images/bucks.png';
 import Halfbuck from './images/halfBucks.png';
 
@@ -32,6 +33,9 @@ function App() {
       <div class = "row">
           <div><Picture /></div>
           <div><Info /></div>
+        </div>
+        <div>
+          <Comparator />
         </div>
       </header>
     </div>

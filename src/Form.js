@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 class Form  extends React.Component {
     constructor(props) {
@@ -12,12 +13,27 @@ class Form  extends React.Component {
       /**
       * add any extra code you need here
       **/
-       this.setState({value: input});
+        this.setState({value: input});
     }
+
     handleSubmit(event) {
       console.log('A salary was submitted: ' + this.state.value);
+      let rate = this.state.value;
+      this.props.dispatch({ type:'UPDATE_RATE', rate: rate});
       event.preventDefault();
     }
+    
+    // handleSubmit(event) {
+    //   let rate = this.state.value;
+    //   if (event.target.value < 25000) {
+    //     alert("Sorry, you have to make at least $25,000 to play.");
+    //   }
+    //   else if (event.target.value >= 25000) {
+    //     console.log('A salary was submitted: ' + this.state.value);
+    //     this.props.dispatch({ type:'UPDATE_RATE', rate: rate});
+    //     event.preventDefault();
+    //   }
+    // }
 
     render() {
         return (
@@ -33,4 +49,4 @@ class Form  extends React.Component {
       }
     }
 
-export default Form
+    export default connect()(Form);

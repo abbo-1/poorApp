@@ -13,7 +13,7 @@ const store = createStore((state = initialState, action) => {
             break;
 
         case "UPDATE_PERSON":
-            return { ...state, person: action.person };
+            return { ...state, person : action.person };
             break;
 
         default:
