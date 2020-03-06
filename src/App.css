@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 }
+
+/***************** BUTTON STYLING *****************/
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #d2d835;
+}
+
+.button1:hover {
+  background-color: #d2d835;
+  color: white;
+}
+
+.button1:active {
+  background-color: #d2d835;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2:active {
+  background-color: #008CBA;
+}
+
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #479555;;
+}
+
+.button3:hover {
+  background-color: #479555;
+  color: white;
+}
+
+.button3:active {
+  background-color: #479555;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #fd4258;
+}
+
+.button4:hover {
+  background-color: #fd4258;
+}
+
+.button4:active {
+  background-color: #fd4258;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #6265db;
+}
+
+.button5:hover {
+  background-color: #6265db;
+  color: white;
+}
+
+.button5:active {
+  background-color: #6265db;
+}
+
+/***************** CONTAINER STYLING *****************/
+
+.row {
+  width:100%;
+  height:50%;
+}
+
+.row div {
+  width:50%;
+  height:100%;
+}

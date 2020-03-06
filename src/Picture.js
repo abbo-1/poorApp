@@ -31,15 +31,7 @@ class Picture extends React.Component {
   componentWillUnmount() {
     this.unsubscribeStore();
   }
-
-
-//       const arnaultImg = require('./images/Arnault.png');
-//       const bezosImg = require('./images/bezos.png');
-//       const buffettImg = require('./images//buffett.png');
-//       const gatesImg = require('./images/gates.png');
-//       const zuckerbergImg = require('./images/zuckerberg.png');
-
-
+  
 render() {
   switch(this.state.person) { 
     case "jeff":

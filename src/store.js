@@ -17,8 +17,8 @@ const store = createStore((state = initialState, action) => {
             break;
 
         default:
-                return state;
-                break;
+            return state;
+            break;
     }
 });
 
