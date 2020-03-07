@@ -27,6 +27,7 @@ class Buttons extends React.Component {
       return (
         <div>
                 <div className="menu">
+                <p>Next, choose a rich guy!</p>
                   <button class = "button button1" onClick = { () =>this.handlePerson("jeff") }> Jeff Bezos </button>
                   <button class = "button button2" onClick = { () =>this.handlePerson("mark") }> Mark Zuckerberg </button>
                   <button class = "button button3" onClick = { () =>this.handlePerson("bill") }> Bill Gates </button>

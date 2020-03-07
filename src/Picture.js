@@ -31,37 +31,37 @@ class Picture extends React.Component {
   componentWillUnmount() {
     this.unsubscribeStore();
   }
-  
+
 render() {
   switch(this.state.person) { 
     case "jeff":
       return (
         <div>
-          <img src={jeff} className="" alt="logo" />
+          <img src={jeff} className="photo" alt="logo" />
         </div>
       )
     case "warren":
       return (
         <div>
-          <img src={warren} className="" alt="logo" />
+          <img src={warren} className="photo" alt="logo" />
         </div>
       )
     case "mark":
       return (
         <div>
-          <img src={mark} className="" alt="logo" />
+          <img src={mark} className="photo" alt="logo" />
         </div>
     )
     case "bill":
       return (
         <div>
-          <img src={bill} className="" alt="logo" />
+          <img src={bill} className="photo" alt="logo" />
         </div>
     )
     case "bernard":
       return (
        <div>
-        <img src={bernard} className="" alt="logo" />
+        <img src={bernard} className="photo" alt="logo" />
       </div>
     )
       default:

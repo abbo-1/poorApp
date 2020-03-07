@@ -14,29 +14,36 @@ function App() {
     <div className="App">
       <header className="App-header">
        <br />
-        <img src={logo} className="" alt="logo" />
+        <img src={logo} className="logo" alt="logo" />
           <br />
-          <p>Choose a rich guy!</p>
-          <div className = "Buttons">
-        <Buttons />
-        <br />
-        <Form />
-        <br />
+          <div class = "row">
+        <div class = "sideBySide">
+          <img src={Buck} className="dollar" alt="buck" /> 
+          <p>This dollar bill will represent $50,000</p>
+          <br />
+        </div>
+        <div class = "sideBySide">
+          <img src={Halfbuck} className="halfDollar" alt="halfbuck" />
+          <br />
+          <p >This half-dollar will represent $25,000</p>
+        </div>
       </div>
+            <div className = "Buttons">
+            <Form />
+            <br />
+            <Buttons />
+            <br />
+      </div>
+      <br />
+
       </header>
-      <br />
-      <img src={Buck} className="" alt="buck" /> 
-      <br />
-      <p>This dollar bill will represent $50,000</p>
-      <img src={Halfbuck} className="" alt="halfbuck" />
-      <br />
-      <p>This half-dollar will represent $25,000</p>
       <div class = "row">
-          <div><Picture /></div>
-          <div><Info /></div>
+          <div class = "sideBySide"><Picture /></div>
+          <div class = "sideBySide"><Info /></div>
       </div>
+      <br />
         <div>
-          <Comparator />
+          {/* <Comparator /> */}
         </div>
     </div>
   );

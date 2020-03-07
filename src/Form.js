@@ -39,8 +39,8 @@ class Form  extends React.Component {
         return (
           <form onSubmit={this.handleSubmit}>
             <label>
-              Enter an hourly salary!
               <br/>
+              <p>First, enter an hourly salary.</p>
               <input value = {this.state.value} onChange={event => this.handleChange(event)}/>
             </label>
             <input type="submit" value="Submit" />

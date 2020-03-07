@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.logo {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -137,7 +142,29 @@
   height:50%;
 }
 
-.row div {
-  width:50%;
-  height:100%;
+.photo {
+  max-width:50%;
+  max-height:50%;
+  padding-top: 20px;
+}
+
+.dollar {
+  max-width:20%;
+  max-height:20%;
+}
+
+.halfDollar {
+  max-width:10%;
+  max-height:10%;
+}
+
+.infoBox {
+  padding-top:30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sideBySide {
+  float: left;
+  width: 50%;
 }
