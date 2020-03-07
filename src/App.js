@@ -19,13 +19,13 @@ function App() {
           <div class = "row">
         <div class = "sideBySide">
           <img src={Buck} className="dollar" alt="buck" /> 
-          <p>This dollar bill will represent $50,000</p>
+          <p>This dollar bill will represent $1,000,000</p>
           <br />
         </div>
         <div class = "sideBySide">
           <img src={Halfbuck} className="halfDollar" alt="halfbuck" />
           <br />
-          <p >This half-dollar will represent $25,000</p>
+          <p >This 1/4th of a penny will represent $25,000</p>
         </div>
       </div>
             <div className = "Buttons">
@@ -37,14 +37,16 @@ function App() {
       <br />
 
       </header>
+      <body>
       <div class = "row">
           <div class = "sideBySide"><Picture /></div>
           <div class = "sideBySide"><Info /></div>
       </div>
       <br />
         <div>
-          {/* <Comparator /> */}
+          <Comparator />
         </div>
+        </body>
     </div>
   );
 }

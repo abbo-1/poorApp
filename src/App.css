@@ -7,6 +7,10 @@
   padding-bottom: 70px;
 }
 
+body {
+  background-color: #939e96;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -140,6 +144,17 @@
 .row {
   width:100%;
   height:50%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+}
+
+.sideBySide {
+  width: 50%;
+  float: left;
+}
+.sideBySide2 {
+  width: 50%;
+  float: right;
 }
 
 .photo {
@@ -158,13 +173,18 @@
   max-height:10%;
 }
 
+.dollarRich {
+  height: 30px;
+  width: auto;
+}
+
 .infoBox {
   padding-top:30px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 200px;
 }
 
-.sideBySide {
-  float: left;
-  width: 50%;
+.bumper {
+  padding-top: 200px;
 }

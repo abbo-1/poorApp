@@ -40,7 +40,7 @@ class Form  extends React.Component {
           <form onSubmit={this.handleSubmit}>
             <label>
               <br/>
-              <p>First, enter an hourly salary.</p>
+              <p>First, enter a yearly salary.</p>
               <input value = {this.state.value} onChange={event => this.handleChange(event)}/>
             </label>
             <input type="submit" value="Submit" />
